@@ -47,11 +47,6 @@ float AllPipeY = 300;
 
 
 
-// All  Pipe Sets x-axis initial Position
-float pipe_x_axis[3] = { 620,920,1220 };
-
-
-
 // Pipes Distance
 float PipeDist = 150;
 
