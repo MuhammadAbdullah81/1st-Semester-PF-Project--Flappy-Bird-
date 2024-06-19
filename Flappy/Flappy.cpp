@@ -47,6 +47,11 @@ float AllPipeY = 300;
 
 
 
+// All  Pipe Sets x-axis initial Position
+float pipe_x_axis[3] = { 620,920,1220 };
+
+
+
 // Pipes Distance
 float PipeDist = 150;
 
@@ -213,11 +218,6 @@ int main()
 	restartTxt.setFillColor(sf::Color::White);
 	restartTxt.setPosition(205, 530);
 	restartTxt.scale(0.7, 0.7);
-
-
-
-	// Scores and High Score
-	scores scoreCount = { 0,0 };
 
 
 
